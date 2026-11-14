@@ -10,3 +10,7 @@ app.py
 datos_excel/
 migracion/
 .env
+# Orquestador (Dagster): solo se versiona la configuración de la instancia
+.dagster/*
+!.dagster/dagster.yaml
+.tmp_dagster_home_*/

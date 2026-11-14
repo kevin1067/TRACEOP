@@ -1,0 +1,8 @@
+# Instancia local de Dagster para TraceOP (historial de ejecuciones, logs y almacenamiento).
+telemetry:
+  enabled: false
+
+# Máximo de ejecuciones simultáneas: las cargas escriben en SQLite.
+concurrency:
+  runs:
+    max_concurrent_runs: 1
