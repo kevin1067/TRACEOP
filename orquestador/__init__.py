@@ -1,1 +1,1 @@
-"""Orquestador del ETL de trazabilidad TraceOP (Dagster)."""
+"""Lógica de tareas del orquestador TraceOP (usada por los DAGs de Airflow)."""
