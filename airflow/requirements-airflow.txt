@@ -1,0 +1,5 @@
+# Dependencias del ETL dentro de la imagen de Airflow.
+# Versiones alineadas con las constraints oficiales de Airflow 3.2.2 (Python 3.12).
+pandas==2.3.3
+openpyxl==3.1.5
+python-dotenv==1.2.2

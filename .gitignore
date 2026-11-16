@@ -9,4 +9,8 @@ reports/
 app.py
 datos_excel/
 migracion/
+data/
 .env
+# Orquestador (Airflow)
+airflow/logs/
+staging/

@@ -1,0 +1,3 @@
+# Archivos que se leen dentro del contenedor Linux de Airflow: siempre LF
+airflow/** text eol=lf
+orquestador/** text eol=lf
