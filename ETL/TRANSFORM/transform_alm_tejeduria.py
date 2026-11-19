@@ -111,11 +111,11 @@ class TransformTejido:
 
         # Aviso si hubiera más de un despacho JS8 con las mismas 4 claves
         # (no debería ocurrir si Medida distingue cada despacho)
-        dup_js8 = js8_rows.duplicated(subset=claves, keep=False)
-        if dup_js8.any():
-            print("ADVERTENCIA: hay despachos JS8 duplicados para las mismas claves "
-                "(OP, Partida, Cod_Tela, Medida). Revisar estas filas:")
-            print(js8_rows.loc[dup_js8])
+        #dup_js8 = js8_rows.duplicated(subset=claves, keep=False)
+        #if dup_js8.any():
+        #    print("ADVERTENCIA: hay despachos JS8 duplicados para las mismas claves "
+        #        "(OP, Partida, Cod_Tela, Medida). Revisar estas filas:")
+        #    print(js8_rows.loc[dup_js8])
 
         js8_rows = js8_rows.rename(columns={'Kgs': 'kg_enviado'})
         js8_rows = js8_rows.drop_duplicates(subset=claves, keep='last')

@@ -14,3 +14,5 @@ data/
 # Orquestador (Airflow)
 airflow/logs/
 staging/
+*.bat
+*.ps1

@@ -7,7 +7,8 @@ from ETL.LOAD.load_resumen import MigrarResumen
 
 from pathlib import Path
 def PipelineResumen(hilado_path:Path,tejeduria_path:Path,generate_excel:bool) -> None:
-    
+
+    print("\nIniciando el pipeline de resumen...")
     #Etapa de extraccion de informacion
     df = getTransacciones(hilado_path,tejeduria_path)
 

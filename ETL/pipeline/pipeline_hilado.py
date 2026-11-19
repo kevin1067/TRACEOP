@@ -10,7 +10,8 @@ from ETL.LOAD.load_hilado import MigrarHilado
 
 from pathlib import Path
 def PipelineHilado(year:int,hilado_path:Path,generate_excel:bool) -> None:
-    
+
+    print("\n Iniciando el pipeline de hilado...")
     #Etapa de extraccion de informacion
     df = getExcelMovData(hilado_path)
 

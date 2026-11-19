@@ -19,8 +19,8 @@ def main():
     hilado_path_year = MAIN_PATH / year
 
     #Pipeline de hilado: Extracción->Transformación->Carga de datos a sqlite
-    #PipelineHilado(int(year),hilado_path_year,False)
-    #PipelineTejeduria(int(year),hilado_path_year,False)
+    PipelineHilado(int(year),hilado_path_year,False)
+    PipelineTejeduria(int(year),hilado_path_year,False)
     PipelineResumen(db_hilado,db_tejido,False)
 
 
