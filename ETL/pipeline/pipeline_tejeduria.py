@@ -9,6 +9,7 @@ from pathlib import Path
 
 def PipelineTejeduria(year:int,tejido_path:Path,generate_excel:bool) -> None:
     #Etapa de extraccion de informacion
+    print("\n Iniciando pipeline de tejeduria...")
     df = getExcelMovData(tejido_path)
     transform_tejido = TransformTejido(df,COD_DICT)
     df_alm_tejido = transform_tejido.getAlmTejeduria(COLS_ALM_TEJEDURIA)
