@@ -87,6 +87,8 @@ python3 --version        # debe mostrar 3.11 o superior
 
 **1. Crear las carpetas de trabajo** en la raíz del proyecto:
 
+para usar los datos de prueba en la carpeta datos_excel/2026, descargar los datos del siguiente link de [Drive](https://drive.google.com/drive/folders/1teCkL6BhBOHizrZC_tazWJTo-3ByafCU?usp=sharing)
+
 ```
 datos_excel/2026/      ← aquí van los reportes mensuales (por ejemplo, enero a junio)
 migracion/
